@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04c3e4f1-bca7-4131-be98-841ad23f658c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMware_programs/ListEsxiNames.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/ListEsxiNames.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMware_programs/list_datastores.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/list_datastores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMware_programs/list_vms.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/list_vms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMware_programs/power_on_vm.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/power_on_vm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,9 +208,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586071509607" />
-    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586333945453">
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586454915270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586333945453" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586454915270" />
   </component>
 </project>
