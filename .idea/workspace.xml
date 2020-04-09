@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="04c3e4f1-bca7-4131-be98-841ad23f658c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMware_programs/ListEsxiNames.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/ListEsxiNames.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMware_programs/list_datastores.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/list_datastores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMware_programs/list_vms.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/list_vms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMware_programs/power_on_vm.py" beforeDir="false" afterPath="$PROJECT_DIR$/VMware_programs/power_on_vm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +34,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.power_on_vm">
-    <configuration name="Create_folder_datacenter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.list_vms">
+    <configuration name="clone_vm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LogicPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -43,7 +47,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware_programs/Create_folder_datacenter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware_programs/clone_vm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -52,7 +56,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="VM_status_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="list_datastores" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LogicPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,28 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Personal_Learning\GitHub\Logic_programs\LogicPrograms\VMware_programs\VM_status_check.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="add_host" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LogicPrograms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VMware_programs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware_programs/add_host.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware_programs/list_datastores.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="power_on_vm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="svMotion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LogicPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +110,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware_programs/power_on_vm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware_programs/svMotion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vMotion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LogicPrograms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VMware_programs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware_programs/vMotion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.power_on_vm" />
-        <item itemvalue="Python.VM_status_check" />
         <item itemvalue="Python.list_vms" />
-        <item itemvalue="Python.add_host" />
-        <item itemvalue="Python.Create_folder_datacenter" />
+        <item itemvalue="Python.svMotion" />
+        <item itemvalue="Python.vMotion" />
+        <item itemvalue="Python.clone_vm" />
+        <item itemvalue="Python.list_datastores" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +176,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="259" key="GridCell.Tab.0.bottom" timestamp="1586087417907">
+    <state width="1345" height="259" key="GridCell.Tab.0.bottom" timestamp="1586411808450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="259" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586087417907" />
-    <state width="1345" height="259" key="GridCell.Tab.0.center" timestamp="1586087417907">
+    <state width="1345" height="259" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586411808450" />
+    <state width="1345" height="259" key="GridCell.Tab.0.center" timestamp="1586411808450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="259" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586087417907" />
-    <state width="1345" height="259" key="GridCell.Tab.0.left" timestamp="1586087417906">
+    <state width="1345" height="259" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586411808450" />
+    <state width="1345" height="259" key="GridCell.Tab.0.left" timestamp="1586411808450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="259" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586087417906" />
-    <state width="1345" height="259" key="GridCell.Tab.0.right" timestamp="1586087417907">
+    <state width="1345" height="259" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586411808450" />
+    <state width="1345" height="259" key="GridCell.Tab.0.right" timestamp="1586411808450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="259" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586087417907" />
+    <state width="1345" height="259" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586411808450" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1586075880911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -208,9 +212,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586071509607" />
-    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586071334793">
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586333945453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586071334793" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586333945453" />
   </component>
 </project>
